@@ -1,0 +1,35 @@
+body{font-family: '微软雅黑';}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0;} 
+table {border-collapse:collapse;border-spacing:0;} 
+fieldset,img {border:0} 
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal} 
+ol,ul {list-style:none} 
+caption,th {text-align:left} 
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal} 
+a{text-decoration: none;}
+
+.color-red{color: #c0351a;}
+.hidden{display: none;}
+
+.fl_l{float:left;}
+.fl_r{float: right;}
+.clear{clear: both;}
+.top{line-height: 40px;height: 40px;padding:0px 10px;font-size: 1rem;}
+.top-w{color: #333;}
+.banner{position: relative; height: auto;overflow:hidden;}
+.banner-w{font-size: 1.1rem;position: absolute;color: #311912;left: 0px;text-align: center;line-height: 40px;width: 100%;top: 45%;}
+.banner-w p{line-height: 30px;}
+.content{text-align: center; font-size: 10px;color: #333333;}
+.con-tit{width: 80%;margin: 0 auto;line-height: 50px;padding:20px 0px;}
+.con-tit p:nth-of-type(1){font-size: 1.3rem;}
+.con-tit p:nth-of-type(2){font-size: 1.2rem;border-top: 2px solid #c0351a;color: #c0351a;}
+.con-sel{width: 80%;margin: 0 auto;}
+.con-sel label{margin-bottom: 20px;border-radius: 5px; line-height: 40px;display: block;}
+.con-sel .type_1{border:1px solid #cdcdcd;position: relative;text-align: center;}
+.con-sel .type_1 select{display: none;}
+.con-sel .type_1 input{display: none;}
+.con-sel .type_1 i{position: absolute; right: 10px; top: 0px;}
+.con-sel .type_2{background-color: #c0351a;}
+.con-sel .type_2 a{color: #fff;}
+
+.select-com{border-radius: 5px;line-height: 40px;text-align: center;display: block;border: 1px solid #cdcdcd;width: 100%;height: 40px;background: none;margin:0 auto;margin-bottom: 20px;}
