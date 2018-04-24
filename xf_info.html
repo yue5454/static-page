@@ -10,37 +10,94 @@
 <body>
 	<div class="top">
 		<div class="top-w fl_l"><span class='color-red'>消防协会</span>委培机构</div>
-		<div class="top-w fl_r"><span class='color-red'>注册 -- 登录</span></div>
+		<div class="top-w fl_r"><span class='color-red'><a href="javascript:;" id='register1' class='color-red'>注册</a> -- 登录</span></div>
 	</div>
 	<div class="banner">
-		<img src="./image/banner.jpg" width='100%' alt="">
-		<div class="banner-w">
-			<p>考试信息查询中心</p>
-			<p>Test the auxiliary Center for the test</p>
-		</div>
+		<img src="./image/info/img1.jpg" width='100%' alt="">
 	</div>
 	<div class="content">
-		<div class="con-tit">
-			<p>2018年消防工程师报考条件</p>
-			<p>自助查询系统</p>
-		</div>
+		<p class='title'>测试一下你考取【消防工程师】要多长时间：</p>
 		<div class="con-sel">
-			<select class='select-com'>
-				<option value='1'>name1</option>
-				<option value='2'>name2</option>
-				<option value='3'>name3</option>
-			</select>
-			<select class='select-com'>
-				<option value='1'>name1</option>
-				<option value='2'>name2</option>
-				<option value='3'>name3</option>
-			</select>
-			<input type="text" class='select-com'>
+			<div class="radio-box">
+				<label class='info'>
+					<span class='color-red'>*</span> 您的最高学历是？
+				</label>
+				<label class='type-radio'>
+					<input type="radio" name='record' value='硕士及以上' class='hidden'>
+					<span class='circle'></span>
+					<span>硕士及以上</span>
+				</label>
+				<label class='type-radio'>
+					<input type="radio" name='record' value="本科" class='hidden'>
+					<span class='circle'></span>
+					<span>本科</span>
+				</label>
+				<label class='type-radio'>
+					<input type="radio" name='record' value='大专及其他' class='hidden'>
+					<span class='circle'></span>
+					<span>大专及其他</span>
+				</label>
+				<label class='info'>
+					<span class='color-red'>*</span> 您的工作年限是？
+				</label>
+				<label class='type-radio'>
+					<input type="radio" name='year' value='0-3' class='hidden'>
+					<span class='circle'></span>
+					<span>0-3年</span>
+				</label>
+				<label class='type-radio'>
+					<input type="radio" name='year' value='3-6' class='hidden'>
+					<span class='circle'></span>
+					<span>3-6年</span>
+				</label>
+				<label class='type-radio'>
+					<input type="radio" name='year' value='6' class='hidden'>
+					<span class='circle'></span>
+					<span>6年以上</span>
+				</label>
+			</div>
+			<input type="text" class='select-com' placeholder="请输入您的手机号">
 			<label class='type_2' for='btn1'>
-				<a href="javascript:;" id='search'>立即查询</a>
+				<a href="javascript:;" id='search1'>查看测评结果</a>
+			</label>
+		</div>
+	</div>
+	<div class="banner">
+		<img src="./image/info/img2.jpg" width="100%" alt="">
+	</div>
+	<div class="banner">
+		<img src="./image/info/img3.jpg" width="100%" alt="">
+	</div>
+	<div class="banner">
+		<img src="./image/info/img4.jpg" width="100%" alt="">
+	</div>
+	<div class="content bottom">
+		<div class="con-sel">
+			<input type="text" class='select-com' placeholder="请输入您的手机号">
+			<label class='type_2' for='btn1'>
+				<a href="javascript:;" id='search2'>获取更多消防相关资料</a>
 			</label>
 			<label>
 				<span class='color-red'>*</span> 系统将以短信形式发送到您的手机上，请注意查收！
+			</label>
+		</div>
+	</div>
+
+	<!-- popover -->
+	<div class="bak hidden pop-over"></div>
+	<div class="pop hidden pop-over">
+		<div class="pop-tit">消防工程师考试服务中心会员注册系统 <i class="iconfont close icon-close2"></i></div>
+		<div class="pop-con">
+			<label>
+				<span>手机号：</span>
+				<input type="text" class='select-com'>
+			</label>
+			<label>
+				<span>密码：</span>
+				<input type="text" class='select-com'>
+			</label>
+			<label class='type_2'>
+				<a href="javascript:;" id='search3'>立即注册</a>
 			</label>
 		</div>
 	</div>
@@ -49,8 +106,18 @@
 <script src='js/jquery-3.3.1.min.js'></script>
 <script type='text/javascript'>
 	$(function () {
-		$("#search").on('click', function () {
-			$("#work_time").trigger('click')
+		function showPop (type) {
+			if (type) {
+				$(".pop-over").removeClass('hidden')
+			} else {
+				$(".pop-over").addClass('hidden')
+			}
+		}
+		$("#register1").on('click', function () {
+			showPop(true)
+		})
+		$(".close").on('click', function () {
+			showPop(false)
 		})
 	})
 </script>

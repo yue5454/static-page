@@ -7,6 +7,7 @@ ol,ul {list-style:none}
 caption,th {text-align:left} 
 h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal} 
 a{text-decoration: none;}
+.bottom{padding: 10px 0px 20px 0px;}
 
 .color-red{color: #c0351a;}
 .hidden{display: none;}
@@ -23,13 +24,28 @@ a{text-decoration: none;}
 .con-tit{width: 80%;margin: 0 auto;line-height: 50px;padding:20px 0px;}
 .con-tit p:nth-of-type(1){font-size: 1.3rem;}
 .con-tit p:nth-of-type(2){font-size: 1.2rem;border-top: 2px solid #c0351a;color: #c0351a;}
+
+/* select */
 .con-sel{width: 80%;margin: 0 auto;}
-.con-sel label{margin-bottom: 20px;border-radius: 5px; line-height: 40px;display: block;}
-.con-sel .type_1{border:1px solid #cdcdcd;position: relative;text-align: center;}
-.con-sel .type_1 select{display: none;}
-.con-sel .type_1 input{display: none;}
-.con-sel .type_1 i{position: absolute; right: 10px; top: 0px;}
-.con-sel .type_2{background-color: #c0351a;}
-.con-sel .type_2 a{color: #fff;}
+.type_2{background-color: #c0351a;text-align: center;display: block;margin-bottom: 20px;border-radius: 5px; line-height: 40px;display: block;}
+.type_2 a{color: #fff;}
+
+/* radio */
+.type-radio{display: inline-block;width: 30%;}
+.type-radio span{display: inline-block;vertical-align: middle;font-size: 0.8rem;}
+.type-radio .circle{border: 1px solid #cdcdcd; border-radius: 50%;width: 12px; height: 12px;}
+.type-radio input:checked+span{background-color: #c0351a;}
+.info{display: block; font-size: 1rem;line-height: 40px;padding: 10px 0px;color: #666;}
+.radio-box{text-align: left;margin-bottom: 20px;}
+.title{font-size: 0.9rem; line-height: 30px; width: 80%;margin: 0 auto;font-weight: bold;padding-top:20px;}
 
 .select-com{border-radius: 5px;line-height: 40px;text-align: center;display: block;border: 1px solid #cdcdcd;width: 100%;height: 40px;background: none;margin:0 auto;margin-bottom: 20px;}
+
+/* popover */
+.bak{position: fixed; top: 0px; left: 0px; width: 100%; height: 100%;background-color: rgba(0, 0, 0, 0.5);}
+.pop{width: 340px; height: auto;position: fixed; top: 150px; left: 50%; margin-left: -170px;background-color: #fff;border-radius: 5px;}
+.pop-tit{height: 30px;line-height: 30px;color: #fff;text-align:center;background-color: #cd351b;padding: 10px;font-size: 14px;border-radius: 5px 5px 0px 0px;}
+.pop-tit i{float: right;font-size: 14px;}
+.pop-con{padding: 20px 10px 0px 10px;}
+.pop label input{width: 230px;display: inline-block}
+.pop-con label span{display: inline-block; width: 80px; text-align: right;}
