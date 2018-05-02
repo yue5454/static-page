@@ -1,0 +1,6 @@
+body{background: url('../image/pc/baokao-bak.jpg') no-repeat;background-size: cover;}
+.box{width: 900px; margin: 0px auto; color: #444;overflow: hidden;text-align: center;padding: 80px 10px 0px 10px;}
+.box .title{font-size: 30px;font-weight: bold;color: #333;line-height: 80px;}
+.box .sub-tit{font-size: 20px;border-top: 2px solid #d8573f;line-height: 60px;}
+.box .thri-tit{font-size: 20px;border-top: 2px solid #d8573f;line-height: 40px;padding: 10px 0px;}
+.tip{font-size: 13px; line-height: 40px;}

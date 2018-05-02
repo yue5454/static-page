@@ -1,0 +1,9 @@
+body{background: url('../image/pc/baokao-bak.jpg') no-repeat;background-size: cover;}
+.bottom{background: rgba(0, 0, 0, 0.4);height: 50px;overflow: hidden;background-size: cover;position: fixed; bottom: 0px; left: 0px;line-height: 50px;text-align: center;width: 100%;font-size: 13px;}
+.about{width: 900px; margin: 0 auto; color: #444;overflow: hidden;padding-bottom: 50px;}
+.about-box{background-color: #fff;height: auto;overflow: hidden;}
+.about p{font-size: 16px; font-weight: bold;line-height: 30px;padding-top: 40px;}
+.about .txt{font-size: 13px;line-height: 30px;padding-left: 80px;}
+
+.about .page-tit{font-size: 60px;color: #ede678;line-height: 100px;font-weight: bold;text-align: center;padding-top: 100px;}
+.about .page-sub{font-size: 14px; line-height: 30px;text-align: center;}
