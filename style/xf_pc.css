@@ -19,6 +19,10 @@ a{text-decoration: none;}
 .btn-135{width: 135px; height: 35px; display: inline-block; border-radius: 20px;text-align: center;line-height: 35px;}
 .btn-90{width: 90px; height: 30px; display: inline-block; border-radius: 20px;text-align: center;line-height: 30px;}
 
+.back-f6f6f6{background-color: #f6f6f6;padding-bottom: 30px;}
+.back-fff{background-color: #fff;padding-bottom: 30px;}
+.width-1190{width: 1190px; height: auto;margin: 0 auto;}
+
 .color-o{color: #d8573f;}
 .color-666{color: #666666;}
 .color-fff{color: #fff;}
@@ -36,7 +40,7 @@ a{text-decoration: none;}
 .top ul li a:hover{background: rgba(0, 0, 0, 0.2);}
 .banner{position: relative;height: auto; overflow: hidden;}
 .banner a{position: absolute; bottom: 90px;left: 50%;margin-left: -135px;}
-.box{width: 1160px; margin: 0 auto; height: auto;overflow: hidden;padding-bottom: 100px;}
+.box{padding-bottom: 100px;}
 
 .content{height: auto; overflow: hidden;}
 .content-1 ul li{float: left;text-align: center;width: 290px;}
@@ -64,16 +68,19 @@ a{text-decoration: none;}
 .content-3 .info ul li a{position: absolute; right: 10px; top: 5px;}
 .content-3 .info ul li a:hover{background: rgba(0, 0, 0, 0.5);}
 
-.content-4 .tip{margin: 20px 0px;}
+.content-4 .tip{margin: 20px 0px; background-color: #fff;border-radius: 5px;}
 .content-4 .tip span{font-size: 16px; color: #333;padding-left: 20px;}
 .content-4 .sec-1{margin-bottom: 100px;}
-.content-4 .sec-1 li{float: left;width: 280px;text-align: center;}
-.content-4 .sec-1 li p{font-size: 14px; line-height: 30px; color: #333; width: 240px;text-align: left;margin: 20px auto;}
+.content-4 .sec-1 li{float: left;width: 280px;text-align: center;position: relative;}
+.content-4 .sec-1 li img{position: absolute;left: 10px; top: -30px;}
+.content-4 .sec-1 li a{position: absolute;left: 10px; top: bottom: -10px;}
+.content-4 .sec-1 li p{font-size: 14px; line-height: 30px; color: #333; background-color: #fff; text-align: left;margin: 0px auto;    padding: 100px 20px 30px 20px;}
 .content-4 .sec-1 li:nth-of-type(2){margin: 0px 160px;}
 
 .content-4 .sec-2{margin-bottom: 100px;}
 .content-4 .sec-2 ul li{width: 265px; height: 570px; float: left;}
-.content-4 .sec-2 ul li:nth-of-type(n+1){margin-left: 25px;}
+.content-4 .sec-2 ul li{margin-left: 43px;}
+.content-4 .sec-2 ul li:nth-of-type(1){margin-left: 0px;}
 .bg-1{background-color: #e3f1e9;}
 .bg-2{background-color: #f9ebec;}
 .bg-3{background-color: #f7efc3;}
