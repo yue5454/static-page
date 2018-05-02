@@ -1,0 +1,11 @@
+/* popover */
+.bak{position: fixed; top: 0px; left: 0px; width: 100%; height: 100%;background-color: rgba(0, 0, 0, 0.5);z-index: 10;}
+.pop{width: 500px;z-index: 10; height: auto;position: fixed; top: 150px; left: 50%; margin-left: -250px;background-color: #fff;border-radius: 5px;text-align: center;}
+.pop-tit{height: 30px;line-height: 30px;color: #fff;text-align:left;background-color: #cd351b;padding: 10px;font-size: 14px;border-radius: 5px 5px 0px 0px;}
+.pop-tit i{float: right;font-size: 14px;}
+.pop-con{padding: 20px 10px 0px 10px;}
+.pop label{display: block;margin-bottom: 20px;}
+.pop label input{width: 350px;display: inline-block}
+.pop-con label span{display: inline-block; width: 80px; text-align: right;}
+.hidden{display: none;}
+.close{cursor: pointer;}

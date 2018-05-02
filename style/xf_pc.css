@@ -21,6 +21,7 @@ a{text-decoration: none;}
 
 .back-f6f6f6{background-color: #f6f6f6;padding-bottom: 30px;}
 .back-fff{background-color: #fff;padding-bottom: 30px;}
+.back-333{background-color: #333;padding-bottom: 30px;}
 .width-1190{width: 1190px; height: auto;margin: 0 auto;}
 
 .color-o{color: #d8573f;}
@@ -36,11 +37,11 @@ a{text-decoration: none;}
 .top{background-color: #d8573f;line-height: 60px;height: 60px;overflow: hidden;}
 .top ul{width: 1160px;margin: 0 auto; overflow: hidden;}
 .top ul li{float: left;padding: 0px 20px;}
-.top ul li a{display: block;}
+.top ul li a{display: block; padding: 0px 10px;}
 .top ul li a:hover{background: rgba(0, 0, 0, 0.2);}
+.top ul li:nth-of-type(1), .top ul li:nth-of-type(8) a:hover{background: none;}
 .banner{position: relative;height: auto; overflow: hidden;}
 .banner a{position: absolute; bottom: 90px;left: 50%;margin-left: -135px;}
-.box{padding-bottom: 100px;}
 
 .content{height: auto; overflow: hidden;}
 .content-1 ul li{float: left;text-align: center;width: 290px;}
@@ -71,25 +72,46 @@ a{text-decoration: none;}
 .content-4 .tip{margin: 20px 0px; background-color: #fff;border-radius: 5px;}
 .content-4 .tip span{font-size: 16px; color: #333;padding-left: 20px;}
 .content-4 .sec-1{margin-bottom: 100px;}
-.content-4 .sec-1 li{float: left;width: 280px;text-align: center;position: relative;}
-.content-4 .sec-1 li img{position: absolute;left: 10px; top: -30px;}
-.content-4 .sec-1 li a{position: absolute;left: 10px; top: bottom: -10px;}
-.content-4 .sec-1 li p{font-size: 14px; line-height: 30px; color: #333; background-color: #fff; text-align: left;margin: 0px auto;    padding: 100px 20px 30px 20px;}
-.content-4 .sec-1 li:nth-of-type(2){margin: 0px 160px;}
+.content-4 .sec-1 li{float: left;width: 320px; text-align: center;position: relative;}
+.content-4 .sec-1 li img{position: absolute;left: 45px; top: 0px; z-index: 1;}
+.content-4 .sec-1 li .sec-1-box{background-color: #fff;position: absolute;bottom: 30px;left: 0px;}
+.content-4 .sec-1 li .sec-1-box a{position: absolute;left: 24px; bottom: -20px;}
+.content-4 .sec-1 li p{font-size: 14px; line-height: 30px; color: #333; text-align: left; padding: 70px 20px 30px 20px;}
+.content-4 .sec-1 li:nth-of-type(1){height: 543px;}
+.content-4 .sec-1 li:nth-of-type(2){margin: 0px 110px; height: 477px;}
+.content-4 .sec-1 li:nth-of-type(3){height: 515px;}
 
 .content-4 .sec-2{margin-bottom: 100px;}
-.content-4 .sec-2 ul li{width: 265px; height: 570px; float: left;}
+.content-4 .sec-2 ul li{width: 265px; height: 530px; float: left;}
 .content-4 .sec-2 ul li{margin-left: 43px;}
 .content-4 .sec-2 ul li:nth-of-type(1){margin-left: 0px;}
 .bg-1{background-color: #e3f1e9;}
 .bg-2{background-color: #f9ebec;}
 .bg-3{background-color: #f7efc3;}
 .bg-4{background-color: #e7f3f9;}
-.content-4 .sec-2 ul li p{width: 140px; margin: 0 auto; text-align: center; font-size: 14px; line-height: 30px;color: #333;}
+
+.bg-11{background-color: #84bd9c;}
+.bg-22{background-color: #dd7f85;}
+.bg-33{background-color: #ddc651;}
+.bg-44{background-color: #86bfdb;}
+.content-4 .sec-2 ul li{padding: 20px;box-sizing: border-box;text-align: center;}
+.content-4 .sec-2 ul li .sec-2-box{width: 225px;height: 440px;margin-bottom: 20px;background-color: #fff;font-size: 13px;}
+.content-4 .sec-2 ul li .sec-2-box .title{line-height: 60px;color: #fff; font-weight: bold;font-size: 16px;}
+.content-4 .sec-2 ul li .sec-2-box .price{height: auto; overflow:hidden;font-size: 14px;border-bottom: 1px solid #ccc;font-weight: bold; color: #666;line-height: 20px;padding: 10px 0px;}
+.content-4 .sec-2 ul li .sec-2-box .course{line-height: 40px;color: #333;padding: 20px 0px;}
+.content-4 .sec-2 ul li .sec-2-box .course span{line-height: 40px;color: #fff;width: 80%;margin: 0 auto;display: inline-block;}
+
 
 .content-4 .sec-3 ul li{width: 160px; float: left;margin-left: 40px;}
 .content-4 .sec-3 ul li:nth-of-type(1){margin-left: 0px;}
 .content-4 .sec-3 ul li p{width: 120px; margin: 0 auto; text-align: center; font-size: 14px; line-height: 30px;color: #333;}
 
 
+.bottom ul li {float: left; border-right: 1px solid #fff;padding: 0px 30px;}
+.bottom {color: #fff; text-align: center; font-size: 12px;}
+.bottom ul {width: 550px;margin: 10px auto;}
+.bottom ul li a {color: #fff;}
+.bottom ul li a:hover{color: #c3b074; text-decoration: underline;}
+
+/*back to top*/
 
