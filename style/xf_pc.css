@@ -11,13 +11,14 @@ a{text-decoration: none;}
 .btn{background-color: #d8573f; font-size: 14px; color: #fff;}
 .btn-y{background-color: #eeb35e; font-size: 14px; color: #fff;}
 .btn-o{background-color: #d8573f; font-size: 14px; color: #fff;}
-.btn-w{border: 1px solid #ccc; color: #333;font-size:14px;}
+.btn-w{border: 1px solid #ccc; color: #333;font-size:14px;box-sizing: border-box;}
 .btn-270{width: 270px; height: 45px; display: inline-block; border-radius: 5px;text-align: center;line-height: 45px;}
 .btn-340{width: 340px; height: 50px; display: inline-block; border-radius: 5px;text-align: center;line-height: 50px;}
 .btn-160{width: 160px; height: 40px; display: inline-block; border-radius: 5px;text-align: center;line-height: 40px;}
 .btn-140{width: 140px; height: 36px; display: inline-block; border-radius: 5px;text-align: center;line-height: 36px;}
 .btn-135{width: 135px; height: 35px; display: inline-block; border-radius: 20px;text-align: center;line-height: 35px;}
 .btn-90{width: 90px; height: 30px; display: inline-block; border-radius: 20px;text-align: center;line-height: 30px;}
+.btn-200{width: 200px; height: 47px; display: inline-block; border-radius: 5px;text-align: center;line-height: 47px;}
 
 .back-f6f6f6{background-color: #f6f6f6;padding-bottom: 30px;}
 .back-fff{background-color: #fff;padding-bottom: 30px;}
@@ -29,6 +30,8 @@ a{text-decoration: none;}
 .color-fff{color: #fff;}
 .color-y{color: #ffec96;}
 .center{text-align: center;}
+.right{float: right;}
+.clear{clear: both;}
 .tit-1{font-size: 2.5rem;line-height: 80px;margin-top: 40px;}
 .title1 p{font-size: 1.4rem;line-height: 40px;}
 
@@ -41,7 +44,7 @@ a{text-decoration: none;}
 .top ul li a:hover{background: rgba(0, 0, 0, 0.2);}
 .top ul li:nth-of-type(1) a:hover, .top ul li:nth-of-type(8) a:hover{background: none;}
 .banner{position: relative;height: auto; overflow: hidden;}
-.banner a{position: absolute; bottom: 90px;left: 50%;margin-left: -135px;}
+.banner>a{position: absolute; bottom: 90px;left: 50%;margin-left: -135px;}
 
 .content{height: auto; overflow: hidden;}
 .content-1 ul li{float: left;text-align: center;width: 290px;}

@@ -1,0 +1,25 @@
+.btn-box{position: absolute;bottom: 100px; left: 420px;}
+.btn-box a:nth-of-type(2){margin: 0px 20px;}
+.nav-box{width: 290px;background: rgba(0, 0, 0, 0.4);position: absolute;top: 0px; left: 100px;}
+.content-1{margin-top: 20px;}
+.content-1 img{display: block;}
+.con-1-btn-box{margin-top: 10px;}
+.con-1-btn-box a{margin-left: 20px;}
+.con-1-btn-box a:nth-of-type(1){margin-left: 0px;}
+
+.service-box{height: 243px; background-color: #dfdfdf; border-radius: 20px;overflow: hidden;box-sizing: border-box;margin-top: 40px;}
+.service-box .tit-1{margin-top: 20px;}
+.service-form{line-height: 40px;margin-top: 30px;text-align: center;}
+.service-form span{font-size: 14px; color: #444;}
+.input-com{border-radius: 5px;line-height: 40px;text-align: center;width: 240px;margin: 0px 10px;border: 1px solid #cdcdcd;height: 40px;background: #fff;}
+
+.location{width: 675px;text-align: right;}
+.location a{margin: 8px 0px 0px 5px;}
+.location a:hover{background-color: #d8573f;color: #fff;}
+.location input{width: 238px;margin: 0px 5px;}
+
+.content-2 img{display: block;float: left;}
+.content-2 .hot{margin-top: 20px;}
+
+.cont-2-btn{text-align: center;}
+.cont-2-btn a{margin: 10px;}
