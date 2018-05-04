@@ -1,0 +1,25 @@
+.bak-green{height: auto; overflow: hidden; background-color: #5cc39d;}
+.bak-gray{height: auto; overflow: hidden; background-color: #ebebeb;}
+
+/* select */
+.con-sel{width: 80%;margin: 0 auto;padding-top: 20px;}
+.type_2{background-color: #e99715;text-align: center;display: block;margin-bottom: 20px;border-radius: 5px; line-height: 40px;display: block;}
+.type_2 a{color: #fff;width: 100%;display: inline-block;}
+.select-com{border-radius: 5px;line-height: 40px;text-align: center;display: block;border: 1px solid #cdcdcd;width: 100%;height: 40px;background: #fff;margin:0 auto;margin-bottom: 20px;}
+
+.com-tit{width: 90%;margin: 0 auto;line-height: 40px;padding-top:20px;color: #fff;}
+.com-tit p:nth-of-type(1){font-size: 1.1rem;font-weight: bold}
+.com-tit p:nth-of-type(2){font-size: 0.9rem;border-top: 1px solid #fff;line-height: 30px;}
+
+.com-tit-0{width: 90%;margin: 0 auto;line-height: 40px;padding-top:20px;color: #333;}
+.com-tit-0 p:nth-of-type(1){font-size: 1.1rem;font-weight: bold}
+.com-tit-0 p:nth-of-type(2){font-size: 0.9rem;border-top: 1px solid #999999;line-height: 30px;}
+
+.com-tit-1{width: 90%;margin: 0 auto;line-height: 40px;padding-top:20px;padding-bottom: 10px;color: #333;}
+.com-tit-1 p:nth-of-type(1){font-size: 1.1rem;font-weight: bold}
+.com-tit-1 p:nth-of-type(2){font-size: 0.9rem;line-height: 30px;}
+
+.zhenti{width: 90%;margin: 0 auto;}
+.zhenti li{line-height: 40px;color: #333;text-align: left;padding-left: 5px;font-size: 0.7rem;}
+.zhenti li:nth-of-type(odd){background-color: #f3f3f3;}
+.zhenti li span{padding-right: 10px;}
