@@ -1,6 +1,12 @@
-.btn-box{position: absolute;bottom: 100px; left: 420px;}
+.btn-box{position: absolute;bottom: 100px; left: 360px;}
 .btn-box a:nth-of-type(2){margin: 0px 20px;}
-.nav-box{width: 290px;background: rgba(0, 0, 0, 0.4);position: absolute;top: 0px; left: 100px;}
+.nav-box{width: 290px;background: rgba(0, 0, 0, 0.4);position: absolute;top: 0px; left: 30px;box-sizing: border-box;}
+.nav-box>p{font-size: 20px; font-weight: bold; color: #fff;padding-top: 30px;}
+.nav-box div p{font-size: 16px; color: #fff;line-height: 30px;padding-top: 10px;}
+.nav-box ul{border-bottom: 1px solid #fff; padding: 10px 0px 20px 0px;height: auto; overflow: hidden;}
+.nav-box ul li{width: 50%; float: left;line-height: 40px;}
+.nav-box ul li a{font-size: 16px; color: #fff;}
+.nav-box ul li a:hover{text-decoration: underline; color: #ffe10d;}
 .content-1{margin-top: 20px;}
 .content-1 img{display: block;}
 .con-1-btn-box{margin-top: 10px;}
@@ -23,3 +29,15 @@
 
 .cont-2-btn{text-align: center;}
 .cont-2-btn a{margin: 10px;}
+
+.content-2{position: relative;}
+.zhenti-1-btn{position: absolute;bottom: 50px; left: 50px;}
+.zhenti-1-btn a{margin-top: 10px;}
+
+.zhenti-comm{position: absolute;right: 20px;}
+.zhenti-comm a{margin-left: 50px;}
+.zhenti-comm a:nth-of-type(1){margin-left: 0px;}
+.zhenti-2-btn{top: 150px;}
+.zhenti-3-btn{top: 350px;}
+
+.banner .width-1190{position: absolute;top: 0px; left: 50%; margin-left: -580px;height: auto; overflow: hidden;}
